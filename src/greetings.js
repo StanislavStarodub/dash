@@ -1,6 +1,7 @@
 const form = document.querySelector('.js-form'),
   input = form.querySelector('input'),
-  greetings = document.querySelector('.js-greetings');
+  greetings = document.querySelector('.js-greetings'),
+  todoContainer = document.querySelector('.todo_container');
 const USER_LS = 'currentUserName',
   SHOWING_CN = 'showing';
 
@@ -14,6 +15,7 @@ function showGreetings(text) {
   greetings.innerText = `${e}, ${text}`;
   greetings.classList.add(SHOWING_CN);
   form.classList.remove('showing');
+  todoContainer.classList.add('showing');
 }
 
 function submitHandler(e) {

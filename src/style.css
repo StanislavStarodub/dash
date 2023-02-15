@@ -27,6 +27,7 @@ body {
 }
 
 .todo_container {
+  display: none;
   text-align: left;
   font-size: 1.3rem
 }
@@ -55,10 +56,6 @@ button {
 .form,
 .greetings {
   display: none;
-}
-
-.input {
-  font-size: 1.2rem;
 }
 
 .greetings {
