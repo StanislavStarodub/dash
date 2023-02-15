@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./src/style.css">
+  <title>My dash</title>
+</head>
+<body>
+  <div class="center">
+    <div class="js-clock"></div>
+    <div class="greatings_container">
+      <form class="js-form form">
+        <input type="text" placeholder="Как вас зовут?">
+      </form>
+      <h2 class="js-greetings greetings"></h2>
+    </div>
+    <div class="todo_container">
+      <form class="js-toDoForm">
+        <input type="text" placeholder="Add task for today">
+      </form>
+      <ul class="js-toDoList"></ul>
+    </div>
+  </div>
+  <div class="top_right">
+    <span class="js-weather"></span>
+  </div>
+  <script src="./src/clock.js"></script>
+  <script src="./src/greetings.js"></script>
+  <script src="./src/todo.js"></script>
+  <script src="./src/bg.js"></script>
+  <script src="./src/weather.js"></script>
+</body>
+</html>
